@@ -10,7 +10,7 @@ body {
     grid-template-columns: 1fr 4fr;
     grid-template-rows: 1fr;
     height: 100vh;
-    background-color: #B6BBC1;
+    background-color: #e2e8f0;
     
 }
 
@@ -59,7 +59,7 @@ body {
     padding-left: 40px;
     font-weight: bolder;
     padding-right: 80px;
-    padding-bottom: 30px;
+    padding-bottom: 10px;
     
     background-color: white;
 }
@@ -70,7 +70,7 @@ body {
     background-color: #e2e8f0;
     padding: 40px 20px;
     font-weight: bolder;
-    
+    padding-top: 15px;
     
 }
 
@@ -81,6 +81,9 @@ body {
     padding: 40px 20px;
     font-weight: bolder;
     height: min-content;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    
     
 
 }
@@ -89,6 +92,10 @@ body {
     grid-column: 2 / 3;
     grid-row: 6 / 7;
     background-color: #e2e8f0;
+    font-weight: bolder;
+    height: min-content;
+    padding: 40px 20px;
+    padding-top: 10px;
 }
 
 .account {
@@ -137,23 +144,33 @@ body {
 
 .announcement {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 30px;
+    grid-template-rows: 1fr 0.1px 1fr 0.1px 1fr;
     margin-top: 20px;
     font-size: 0.8rem;
     padding-left: 35px;
-}
+    background-color: white;
+    box-shadow: 0 0.25px 1px 0 black ;
+    border-radius: 10px; 
+    padding-top: 20px;  
+    padding-bottom: 15px;
+    padding-right: 35px;
 
+}
+ 
 .trend {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
-    gap: 80px;
-    margin-top: 20px;
-    font-size: 0.8rem;
+    gap: 20px; 
+    margin-top: 10px;
+    font-size: 0.8rem; 
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 0.25px 1px 0 black ;
 }
 
 img {
-    height: 25px;
+    height: 25px; 
     width: auto;
     padding-right: 15px;
 }
@@ -241,7 +258,7 @@ img:not(.dashboard > img) {
 .buttons > div {
     background-color: #3b82f6;
     padding: 7px 20px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 
 .project > div {
@@ -280,4 +297,49 @@ img:not(.dashboard > img) {
     font-weight: bold;
     font-size: 0.65rem;
     margin-bottom: 5px;
+}
+
+.t {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 1fr;
+
+}
+
+.t img {
+    grid-column: 1 / 2;
+    grid-row: 1 / 3;
+    height: 30px;
+    width: auto;
+}
+
+.at {
+    grid-column: 2 / 3;
+    grid-row: 1 / 2;
+    align-self: self-end;
+}
+
+.job {
+    grid-column: 2 / 3; 
+    grid-row: 2 / 3;
+    font-size: 0.6rem;
+    color: gray;  
+}
+
+.gap {
+    border: 0.01px lightgray solid;
+    
+}
+ 
+.a1 {
+    padding-bottom: 10px;
+}
+
+.a2 { 
+    padding-top: 10px;
+    padding-bottom: 10px; 
+}
+
+.a3 {
+    padding-top: 10px;
 }
