@@ -1,1 +1,1 @@
-open website from the production tab to the right of the screen
+open website from the deployments tab to the right of the screen
